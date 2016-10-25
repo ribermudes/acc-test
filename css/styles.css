@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #158DA6;
+  display: flex;
+  justify-content: space-between; }
+  .navbar li {
+    list-style-type: none; }
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.image1 {
+  background-image: url("../img/car.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  width: 300px; }
+
+.image2 {
+  background-image: url("../img/trainstation.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  width: 300px; }
+
+.image3 {
+  background-image: url("../img/waves.JPG");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  width: 300px; }
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center; }
+
+.thumbnail {
+  border: 1px solid black;
+  height: 130px;
+  width: 100px;
+  background-color: steelblue; }
+
+/*# sourceMappingURL=styles.css.map */

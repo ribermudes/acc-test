@@ -1,0 +1,52 @@
+@mixin photo-styles {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+}
+
+
+.navbar {
+  background-color: #158DA6;
+  display: flex;
+  justify-content: space-between;
+  li {
+    list-style-type: none;
+  }
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image1 {
+  background-image: url("../img/car.jpg");
+  @include photo-styles ;
+}
+
+.image2 {
+  background-image: url("../img/trainstation.jpg");
+  @include photo-styles ;
+}
+
+.image3 {
+  background-image: url("../img/waves.JPG");
+  @include photo-styles ;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+  border: 1px solid black;
+  height: 130px;
+  width: 100px;
+  background-color: steelblue;
+}
